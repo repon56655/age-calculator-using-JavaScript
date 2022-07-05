@@ -30,20 +30,26 @@
             <!-- Birth Date Section  -->
           <tr class="text-center">
             <th scope="row">Birthdate</th>
-            <td><input id="byear"  class="rounded-3 text-center" type="text"></td>
-            <td><input id="bmonth"  class="rounded-3 text-center" type="text"></td>
-            <td><input id="bdate"  class="rounded-3 text-center" type="text"></td>
+            <td><input id="byear"  class="rounded-3 text-center inputs" type="text"></td>
+            <td><input id="bmonth"  class="rounded-3 text-center inputs" type="text"></td>
+            <td><input id="bdate"  class="rounded-3 text-center inputs" type="text"></td>
           </tr>
 
           <!-- Calculate Age Section  -->
           <tr class="text-center">
             <th scope="row">Calculation Date	</th>
-            <td><input id="cyear" class="rounded-3 text-center" type="text"></td>
-            <td><input id="cmonth" class="rounded-3 text-center" type="text"></td>
-            <td><input id="cdate" class="rounded-3 text-center" type="text"></td>
+            <td><input id="cyear" class="rounded-3 text-center inputs" type="text"></td>
+            <td><input id="cmonth" class="rounded-3 text-center inputs" type="text"></td>
+            <td><input id="cdate" class="rounded-3 text-center inputs" type="text"></td>
           </tr>
+
+
           <tr class="text-center">
-            <td colspan="4"><input class="btn btn-danger w-25" type="button" value="Calculate" onclick="calculation()"></td>
+            <td colspan="4"><input class="btn btn-warning w-25" type="button" value="Calculate" onclick="calculation()"></td>
+          </tr>
+
+          <tr class="text-center">
+            <td colspan="4"><input class="btn btn-danger w-25" type="button" value="Calculate" onclick="clear_inputs()"></td>
           </tr>
           
         </tbody>
